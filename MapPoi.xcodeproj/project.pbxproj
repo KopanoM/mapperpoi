@@ -10,9 +10,13 @@
 		04E8706B29694AD4003B1923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8706A29694AD4003B1923 /* AppDelegate.swift */; };
 		04E8706D29694AD4003B1923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8706C29694AD4003B1923 /* SceneDelegate.swift */; };
 		04E8706F29694AD4003B1923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8706E29694AD4003B1923 /* ViewController.swift */; };
-		04E8707229694AD4003B1923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E8707029694AD4003B1923 /* Main.storyboard */; };
 		04E8707429694AD8003B1923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E8707329694AD8003B1923 /* Assets.xcassets */; };
 		04E8707729694AD8003B1923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E8707529694AD8003B1923 /* LaunchScreen.storyboard */; };
+		04E87080296AFDAF003B1923 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8707F296AFDAE003B1923 /* PlaceAnnotation.swift */; };
+		04E87083296B0095003B1923 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87082296B0095003B1923 /* CLLocation+Extensions.swift */; };
+		04E87088296B041C003B1923 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87087296B041C003B1923 /* PlacesTableViewController.swift */; };
+		04E8708A296C4ACC003B1923 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87089296C4ACB003B1923 /* PlaceDetailViewController.swift */; };
+		04E8708C296C61FD003B1923 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8708B296C61FD003B1923 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		04E8706A29694AD4003B1923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E8706C29694AD4003B1923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04E8706E29694AD4003B1923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04E8707129694AD4003B1923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E8707329694AD8003B1923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E8707629694AD8003B1923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E8707829694AD8003B1923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E8707F296AFDAE003B1923 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		04E87082296B0095003B1923 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		04E87087296B041C003B1923 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		04E87089296C4ACB003B1923 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		04E8708B296C61FD003B1923 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		04E8706929694AD4003B1923 /* HellowWorld */ = {
 			isa = PBXGroup;
 			children = (
+				04E87086296B03F7003B1923 /* Controllers */,
+				04E87081296AFE12003B1923 /* Extensions  */,
+				04E8707E296AFD95003B1923 /* Annotations */,
 				04E8706A29694AD4003B1923 /* AppDelegate.swift */,
 				04E8706C29694AD4003B1923 /* SceneDelegate.swift */,
 				04E8706E29694AD4003B1923 /* ViewController.swift */,
-				04E8707029694AD4003B1923 /* Main.storyboard */,
 				04E8707329694AD8003B1923 /* Assets.xcassets */,
 				04E8707529694AD8003B1923 /* LaunchScreen.storyboard */,
 				04E8707829694AD8003B1923 /* Info.plist */,
 			);
 			path = HellowWorld;
+			sourceTree = "<group>";
+		};
+		04E8707E296AFD95003B1923 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				04E8707F296AFDAE003B1923 /* PlaceAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		04E87081296AFE12003B1923 /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				04E87082296B0095003B1923 /* CLLocation+Extensions.swift */,
+				04E8708B296C61FD003B1923 /* String+Extensions.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
+		04E87086296B03F7003B1923 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E87087296B041C003B1923 /* PlacesTableViewController.swift */,
+				04E87089296C4ACB003B1923 /* PlaceDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +163,6 @@
 			files = (
 				04E8707729694AD8003B1923 /* LaunchScreen.storyboard in Resources */,
 				04E8707429694AD8003B1923 /* Assets.xcassets in Resources */,
-				04E8707229694AD4003B1923 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E87080296AFDAF003B1923 /* PlaceAnnotation.swift in Sources */,
+				04E87083296B0095003B1923 /* CLLocation+Extensions.swift in Sources */,
+				04E8708A296C4ACC003B1923 /* PlaceDetailViewController.swift in Sources */,
 				04E8706F29694AD4003B1923 /* ViewController.swift in Sources */,
+				04E8708C296C61FD003B1923 /* String+Extensions.swift in Sources */,
 				04E8706B29694AD4003B1923 /* AppDelegate.swift in Sources */,
 				04E8706D29694AD4003B1923 /* SceneDelegate.swift in Sources */,
+				04E87088296B041C003B1923 /* PlacesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04E8707029694AD4003B1923 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E8707129694AD4003B1923 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04E8707529694AD8003B1923 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,17 +323,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HellowWorld/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Map Interest Checker";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Near me we need your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NearMe requires location so it can offer near by points of interest";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qubit.engineering.HellowWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = qubit.engineering.mapoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,17 +354,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HellowWorld/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Map Interest Checker";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Near me we need your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NearMe requires location so it can offer near by points of interest";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qubit.engineering.HellowWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = qubit.engineering.mapoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

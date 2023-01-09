@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04E8706629694AD4003B1923"
                BuildableName = "HellowWorld.app"
-               BlueprintName = "HellowWorld"
-               ReferencedContainer = "container:HellowWorld.xcodeproj">
+               BlueprintName = "MapPoi"
+               ReferencedContainer = "container:MapPoi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E8706629694AD4003B1923"
             BuildableName = "HellowWorld.app"
-            BlueprintName = "HellowWorld"
-            ReferencedContainer = "container:HellowWorld.xcodeproj">
+            BlueprintName = "MapPoi"
+            ReferencedContainer = "container:MapPoi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
@@ -67,8 +67,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E8706629694AD4003B1923"
             BuildableName = "HellowWorld.app"
-            BlueprintName = "HellowWorld"
-            ReferencedContainer = "container:HellowWorld.xcodeproj">
+            BlueprintName = "MapPoi"
+            ReferencedContainer = "container:MapPoi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

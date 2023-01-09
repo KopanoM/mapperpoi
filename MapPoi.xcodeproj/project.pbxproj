@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04E8706729694AD4003B1923 /* HellowWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellowWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E8706729694AD4003B1923 /* MapPoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E8706A29694AD4003B1923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E8706C29694AD4003B1923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04E8706E29694AD4003B1923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		04E8706829694AD4003B1923 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E8706729694AD4003B1923 /* HellowWorld.app */,
+				04E8706729694AD4003B1923 /* MapPoi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04E8706629694AD4003B1923 /* HellowWorld */ = {
+		04E8706629694AD4003B1923 /* MapPoi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E8707B29694AD8003B1923 /* Build configuration list for PBXNativeTarget "HellowWorld" */;
+			buildConfigurationList = 04E8707B29694AD8003B1923 /* Build configuration list for PBXNativeTarget "MapPoi" */;
 			buildPhases = (
 				04E8706329694AD4003B1923 /* Sources */,
 				04E8706429694AD4003B1923 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = HellowWorld;
+			name = MapPoi;
 			productName = HellowWorld;
-			productReference = 04E8706729694AD4003B1923 /* HellowWorld.app */;
+			productReference = 04E8706729694AD4003B1923 /* MapPoi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04E8706229694AD4003B1923 /* Build configuration list for PBXProject "HellowWorld" */;
+			buildConfigurationList = 04E8706229694AD4003B1923 /* Build configuration list for PBXProject "MapPoi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04E8706629694AD4003B1923 /* HellowWorld */,
+				04E8706629694AD4003B1923 /* MapPoi */,
 			);
 		};
 /* End PBXProject section */
@@ -321,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392T9G88XJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HellowWorld/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Map Interest Checker";
@@ -331,7 +332,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,6 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392T9G88XJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HellowWorld/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Map Interest Checker";
@@ -362,7 +364,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E8706229694AD4003B1923 /* Build configuration list for PBXProject "HellowWorld" */ = {
+		04E8706229694AD4003B1923 /* Build configuration list for PBXProject "MapPoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E8707929694AD8003B1923 /* Debug */,
@@ -388,7 +390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E8707B29694AD8003B1923 /* Build configuration list for PBXNativeTarget "HellowWorld" */ = {
+		04E8707B29694AD8003B1923 /* Build configuration list for PBXNativeTarget "MapPoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E8707C29694AD8003B1923 /* Debug */,
